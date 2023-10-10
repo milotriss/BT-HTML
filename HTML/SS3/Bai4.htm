@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Thông Tin Sản Phẩm</legend>
+        <label for="name">Tên sản phẩm</label>
+        <input id="name" type="text" />
+        <label for="number">Số lượng</label>
+        <input id="number" type="number" />
+      </fieldset>
+      <fieldset>
+        <legend>Thông tin giao hàng</legend>
+        <label for="namep">Họ Tên</label>
+        <input id="namep" type="text" />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+
+        <label for="phone">Số điện thoại</label>
+        <input id="phone" type="number" />
+
+        <label for="address">Địa chỉ</label>
+        <input id="address" type="text" />
+      </fieldset>
+      <fieldset>
+        <legend>Thông tin thanh toán</legend>
+        <label for="pay">Phương thức thanh toán:</label>
+        <select name="pay" id="pay">
+          <option value="pay">Thanh toán khi nhận hàng</option>
+          <option value="pay">Thanh toán bằng Master Card</option>
+          <option value="pay">Thanh toán bằng Ví MoMo</option>
+          <option value="pay">Thanh toán bằng Ví Zalopay</option>
+        </select>
+      </fieldset>
+      <button type="submit">Đặt hàng</button>
+      <button type="reset">Nhập lại</button>
+    </form>
+    <hr />
+    <caption color="#333">
+      Kết hợp TB vs Form
+    </caption>
+    <header>
+      <h1>Trang web bán hàng</h1>
+      <ul>
+        <li>
+          <a href="">Trang chủ</a>
+        </li>
+        <li>
+          <a href="">Sản phẩm</a>
+        </li>
+        <li>
+          <a href="">Giới thiệu</a>
+        </li>
+        <li>
+          <a href="">Liên hệ</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h2>Thông tin sản phẩm</h2>
+        <table border="1px, solid">
+          <thead>
+            <tr align="center">
+              <td><strong>Tên sản phẩm</strong></td>
+              <td><strong>Mô tả</strong></td>
+              <td><strong>Giá</strong></td>
+              <td><strong>Số lượng</strong></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sản phẩm 1</td>
+              <td>Mô tả sản phẩm 1</td>
+              <td>100.000đ</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Sản phẩm 2</td>
+              <td>Mô tả sản phẩm 2</td>
+              <td>200.000đ</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Sản phẩm 3</td>
+              <td>Mô tả sản phẩm 3</td>
+              <td>300.000đ</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Thông tin người dùng</h2>
+        <form>
+            <div>
+                <label for="name">Họ và tên</label>
+                <input id="name" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <label for="phonenumber">Số điện thoại</label>
+                <input id="phonenumber" type="number">
+            </div>
+            <div>
+                <label for="address">Địa chỉ</label>
+                <input id="address" type="text">
+            </div>
+            <button type="submit">Đặt hàng</button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>&copy; 2023 trang web bán hàng</p>
+  </footer>
+</html>
